@@ -1,0 +1,11 @@
+export {default as Header} from './Header';
+export {default as Faq} from './FAQ';
+export {default as LidMagnets} from './LidMagnets';
+export {default as Price} from './Price';
+export {default as Help} from './Help';
+export {default as Present} from './Present';
+export {default as Main} from './Main';
+export {default as ClientS} from './ClientS';
+export {default as How} from './How';
+export {default as Preim} from './Preim';
+export {default as Footer} from './Footer';

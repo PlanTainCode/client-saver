@@ -1,0 +1,276 @@
+.faq {
+    width: 100%;
+    background: linear-gradient(87.67deg, rgba(59, 113, 254, 0.1) 12.06%, rgba(1, 162, 253, 0.1) 99.08%);
+    box-sizing: border-box;
+    padding: 60px 0px 90px 0px;
+
+    &__fone1 {
+        margin-top: -70px;
+        height: 80px;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        z-index: 5;
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    &__fone2 {
+        margin-top: 20px;
+        height: 80px;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        z-index: 5;
+        width: 120%;
+        margin-left: -10%;
+        transform: rotateX(180deg);
+    }
+
+    &__container {
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        
+    }
+    h2 {
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 36px;
+        color: #0E0E2C;
+    }
+    @media (max-width: 1440px) {
+        &__fone1 {
+            margin-top: -90px;
+            height: 80px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+        }
+    
+        &__fone2 {
+            margin-top: 20px;
+            height: 80px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+            transform: rotateX(180deg);
+        }
+        padding: 90px 0px;
+        &__container {
+            max-width: 1100px;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    @media (max-width: 1200px) {
+        padding: 80px 0px;
+        &__container {
+            max-width: 990px;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 28px;
+            line-height: 28px;
+        }
+    }
+    @media (max-width: 990px) {
+        &__fone1 {
+            margin-top: -60px;
+            height: 50px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+        }
+    
+        &__fone2 {
+            margin-top: 20px;
+            height: 50px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+            transform: rotateX(180deg);
+        }
+        padding: 60px 0px;
+        &__container {
+            max-width: 800px;
+            grid-template-columns: 1fr 1fr;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+    @media (max-width: 560px) {
+        padding: 40px 0px;
+        &__fone1 {
+            margin-top: -40px;
+            height: 40px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+        }
+    
+        &__fone2 {
+            margin-top: 0px;
+            height: 40px;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+            position: absolute;
+            z-index: 5;
+            width: 120%;
+            margin-left: -10%;
+            transform: rotateX(180deg);
+        }
+        &__container {
+            max-width: 400px;
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}
+
+.faq-acs {
+margin-top: 75px;
+@media (max-width: 1440px) {
+    margin-top: 70px;
+}
+@media (max-width: 1200px) {
+    margin-top: 65px;
+}
+@media (max-width: 990px) {
+    margin-top: 55px;
+}
+@media (max-width: 540px) {
+    margin-top: 40px;
+}
+}
+
+.faq-ac {
+    margin: 10px 0px;
+    background-color: inherit !important;
+    background: inherit !important;
+    box-shadow: none !important;
+}
+
+.faq-ac-sum {
+    background: #FFFFFF !important;
+    border: 0px solid inherit !important;
+    border-radius: 6px !important;
+    min-height: 30px !important;
+    &__t {
+        padding: 5px 25px !important;
+        font-family: 'Montserrat' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+        line-height: 22px !important;
+        letter-spacing: 0.36px !important;
+        color: #1D2B4F !important;
+    }
+    @media (max-width: 1440px) {
+        &__t {
+            padding: 5px 20px !important;
+            font-size: 17px !important;
+            line-height: 21px !important;
+        }
+    }
+    @media (max-width: 1200px) {
+        &__t {
+            padding: 5px 15px !important;
+            font-size: 16px !important;
+            line-height: 20px !important;
+        }
+        svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    @media (max-width: 990px) {
+        &__t {
+            padding: 5px 10px !important;
+            font-size: 15px !important;
+            line-height: 19px !important;
+        }
+        svg {
+            width: 23px;
+            height: 23px;
+        }
+    }
+    @media (max-width: 540px) {
+        &__t {
+            padding: 5px 10px !important;
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.faq-ac-det {
+    margin-top: 6px !important;
+    background: #FFFFFF !important;
+    border: 0px solid inherit !important;
+    border-radius: 6px !important;
+    &__t {
+        padding: 15px 25px !important;
+        font-family: 'Montserrat' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+        letter-spacing: 0.36px !important;
+        color: #1D2B4F !important;
+        opacity: 0.6 !important;
+    }
+    @media (max-width: 1440px) {
+        &__t {
+            padding: 5px 20px !important;
+            font-size: 17px !important;
+            line-height: 21px !important;
+        }
+    }
+    @media (max-width: 1200px) {
+        &__t {
+            padding: 5px 15px !important;
+            font-size: 16px !important;
+            line-height: 20px !important;
+        }
+    }
+    @media (max-width: 990px) {
+        &__t {
+            padding: 5px 10px !important;
+            font-size: 15px !important;
+            line-height: 19px !important;
+        }
+    }
+    @media (max-width: 540px) {
+        &__t {
+            padding: 5px 10px !important;
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+    }
+}

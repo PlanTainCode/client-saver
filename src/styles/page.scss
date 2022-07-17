@@ -1,0 +1,24 @@
+.span-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #3B71FE;
+    @media (max-width: 1440px) {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    @media (max-width: 1200px) {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    @media (max-width: 990px) {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    @media (max-width: 540px) {
+        font-size: 13px;
+        line-height: 13px;
+    }
+}
