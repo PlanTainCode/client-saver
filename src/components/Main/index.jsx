@@ -1,6 +1,7 @@
 import React from 'react'
 import './main.scss'
-import Img1 from '../../assets/laptop.png'
+// import Img1 from '../../assets/laptop.png'
+import Img1 from '../../assets/laptop-2.png'
 import Img2 from '../../assets/ShurMain.png'
 import { Button, Typography } from '@mui/material'
 import TypeAnimation from 'react-type-animation';
